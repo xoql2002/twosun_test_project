@@ -1,4 +1,4 @@
-# Twosun Test Project (NestJS + TypeORM + Docker MySQL + Swagger)
+# Twosun Test Project (NestJS + TypeORM + Docker MySQL + Swagger + JWT)
 
 ## 실행 방법
 1. 저장소 클론
@@ -56,7 +56,7 @@ http://localhost:3000/api-docs
 - **MySQL** (관계형 데이터베이스, Docker 연동 용이)
 - **Docker** (Docker Compose | 개발 환경 일관성 유지 및 DB 컨테이너화)
 - **Swagger** (API 명세서 자동화 및 테스트 용이)
-
+- **JWT** 인증/인가를 위한 토큰 기반 인증 제공 (REST API 최적화, 추가 DB 조회 최소화, OAuth/SSO 연동 가능)
 
 ## 간략한 디렉토리 구조와 설명
 
@@ -96,8 +96,8 @@ twosun_test_project/
 
 
 ## API 명세서
-- Swagger 참고(`http://localhost:3000/api-docs`)
-
+- 서버 실행 후 Swagger 참고(`http://localhost:3000/api-docs`)
+- 인증이 필요한 API는 오른쪽 상단 Authorize 버튼 클릭 후 토큰 입력(`로그인 Api 발급`)
 
 ## Repository 링크
 `https://github.com/xoql2002/twosun_test_project.git`
