@@ -56,7 +56,7 @@ http://localhost:3000/api-docs
 - **MySQL** (관계형 데이터베이스, Docker 연동 용이)
 - **Docker** (Docker Compose | 개발 환경 일관성 유지 및 DB 컨테이너화)
 - **Swagger** (API 명세서 자동화 및 테스트 용이)
-- **JWT** 인증/인가를 위한 토큰 기반 인증 제공 (REST API 최적화, 추가 DB 조회 최소화, OAuth/SSO 연동 가능)
+- **JWT** (인증/인가를 위한 토큰 기반 인증 제공, REST API 최적화 및 추가 DB 조회 최소화, OAuth/SSO 연동 가능)
 
 ## 간략한 디렉토리 구조와 설명
 
